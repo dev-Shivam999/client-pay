@@ -63,14 +63,14 @@ const Save = memo(() => {
               data?.map((p, i) => (
                 <div
                   onClick={() => del(p)}
-                  className="  rounded-xl bg-zinc-300 p-1  mx-auto  my-3 w-1/2 text-[3vw] sm:text-[2vw] "
+                  className="  rounded-xl bg-zinc-300 p-1 w-11/12  mx-auto  my-3 sm:w-1/2 text-[3vw] sm:text-[2vw] "
                   key={i}>
-                  <div className="flex items-center">
-                    <div className="bg-purple-400 rounded-xl font-semibold   px-[2vw] text-[3vw]">
+                  <div className="flex items-center w-full">
+                    <div className="bg-purple-400 rounded-xl font-semibold   px-[2vw] py-[1.5vw] text-[4vw]">
                       {p.name.slice(0, 1).toUpperCase()}
                     </div>
-                    <div className="ps-1">
-                      <div className="flex justify-between ">
+                    <div className=" w-full px-[2vw]">
+                      <div className="flex justify-between  ">
                         <Div>{p.name}</Div>
                         <Div>₹{p.debB.balance - p.newDebBalance}</Div>
                       </div>
