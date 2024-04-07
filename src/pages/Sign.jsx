@@ -30,7 +30,7 @@ const hand = useCallback(async (e) => {
   console.log(data);
   if (!data.error) {
     alert(data.message);
-    navigate('/Friend')
+    navigate('/friend')
 
   }else{
     alert(data.message);
