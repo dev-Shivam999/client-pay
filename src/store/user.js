@@ -16,7 +16,7 @@ export const user = createSlice({
         state.user = action.payload;
     },
     active:(state,action)=>{
-state.active = action.payload;
+state.act = action.payload;
 
     },
     anactive:(state,action)=>{

@@ -63,10 +63,10 @@ const Save = memo(() => {
               data?.map((p, i) => (
                 <div
                   onClick={() => del(p)}
-                  className="  rounded-xl bg-zinc-300  mx-auto  my-3 w-1/2 text-[3vw] sm:text-[2vw] "
+                  className="  rounded-xl bg-zinc-300 p-1  mx-auto  my-3 w-1/2 text-[3vw] sm:text-[2vw] "
                   key={i}>
-                  <div className="flex ">
-                    <div className="bg-purple-400 rounded-xl font-semibold  p-2 px-4 text-[3vw]">
+                  <div className="flex items-center">
+                    <div className="bg-purple-400 rounded-xl font-semibold   px-[2vw] text-[3vw]">
                       {p.name.slice(0, 1).toUpperCase()}
                     </div>
                     <div className="ps-1">

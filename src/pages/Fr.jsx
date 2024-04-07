@@ -38,14 +38,15 @@ const Fr = () => {
         console.log(error, "ho gato");
       }
     };
-
     useEffect(() => {
       api();
     }, []);
   return (
     <div className=" text-end h-screen text-white bg-gray-700 relative  flex justify-center items-center text-[4.5vw] sm:text-[3.5vw] ">
       {act ? (
-        <div>loading</div>
+        <div className="h-screen w-full text-white pt-[40vh] text-center  flex justify-start items-start text-5xl">
+          <div className="text-center">loading...</div>
+        </div>
       ) : er ? (
         <div>check the connection</div>
       ) : (
