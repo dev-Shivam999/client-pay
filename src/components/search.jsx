@@ -17,7 +17,7 @@ const Search = memo(() => {
       try {
         setLoading(true);
         const response = await axios.post(
-          `https://pay-shiv.netlify.app/user/search?q=${q}`,
+          `https://pay-1esl.onrender.com/user/search?q=${q}`,
           { withCredentials: true, cancelToken: source.token }
         );
         setNata(response.data.results);
