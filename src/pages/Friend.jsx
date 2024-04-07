@@ -60,16 +60,14 @@ const Friend = memo(() => {
     },[])
     return (
       <div>
-        {/* {!loading ? (
+        {!loading ? (
           <div>loading</div>
         ) : err ? (
           <div>check the connection</div>
-        ) : ( */}
-          <Frame>
-
+        ) : (
+          
         <FriendDta/>
-          </Frame>
-        {/* )} */}
+         )} 
       </div>
     );
 })
