@@ -1,46 +1,46 @@
-export const homeApi="http://localhost:7852/user/lol"
+export const homeApi="https://pay-shiv.netlify.app/user/lol"
 
 
-export const FreindApi='http://localhost:7852/user/home'
+export const FreindApi='https://pay-shiv.netlify.app/user/home'
 
 
-export const allPerson='http://localhost:7852/user/friend'
+export const allPerson='https://pay-shiv.netlify.app/user/friend'
 
-export const first='http://localhost:7852/user/first'
-export const login ="http://localhost:7852/user/login"
+export const first='https://pay-shiv.netlify.app/user/first'
+export const login ="https://pay-shiv.netlify.app/user/login"
 
-export const userId ="http://localhost:7852/user/id"
+export const userId ="https://pay-shiv.netlify.app/user/id"
 
-export const sing="http://localhost:7852/user/sign"
-
-
-export const out="http://localhost:7852/user/logout"
+export const sing="https://pay-shiv.netlify.app/user/sign"
 
 
-
-
-
-
-export const userdel="http://localhost:7852/user/del"
+export const out="https://pay-shiv.netlify.app/user/logout"
 
 
 
 
 
-export const userpay="http://localhost:7852/bal/pay"
+
+export const userdel="https://pay-shiv.netlify.app/user/del"
 
 
 
-export const usersave="http://localhost:7852/bal/save"
-
-export const transHistory="http://localhost:7852/bal/history"
 
 
-export const deltrans="http://localhost:7852/bal/del"
+export const userpay="https://pay-shiv.netlify.app/bal/pay"
 
 
-export const showbal="http://localhost:7852/bal/balance"
-export const getbal="http://localhost:7852/bal/get/balance"
+
+export const usersave="https://pay-shiv.netlify.app/bal/save"
+
+export const transHistory="https://pay-shiv.netlify.app/bal/history"
+
+
+export const deltrans="https://pay-shiv.netlify.app/bal/del"
+
+
+export const showbal="https://pay-shiv.netlify.app/bal/balance"
+export const getbal="https://pay-shiv.netlify.app/bal/get/balance"
 
 
 
