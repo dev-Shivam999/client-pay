@@ -17,7 +17,7 @@ const Search = memo(() => {
       try {
         setLoading(true);
         const response = await axios.post(
-          `https://pay-1esl.onrender.com/user/search?q=${q}`,
+          `https://client-pay-1.onrender.com/user/search?q=${q}`,
           { withCredentials: true, cancelToken: source.token }
         );
         setNata(response.data.results);
