@@ -1,46 +1,46 @@
-export const homeApi="http://localhost:7852/user/lol"
+export const homeApi="https://pay-1esl.onrender.com/user/lol"
 
 
-export const FreindApi='http://localhost:7852/user/home'
+export const FreindApi='https://pay-1esl.onrender.com/user/home'
 
 
-export const allPerson='http://localhost:7852/user/friend'
+export const allPerson='https://pay-1esl.onrender.com/user/friend'
 
-export const first='http://localhost:7852/user/first'
-export const login ="http://localhost:7852/user/login"
+export const first='https://pay-1esl.onrender.com/user/first'
+export const login ="https://pay-1esl.onrender.com/user/login"
 
-export const userId ="http://localhost:7852/user/id"
+export const userId ="https://pay-1esl.onrender.com/user/id"
 
-export const sing="http://localhost:7852/user/sign"
-
-
-export const out="http://localhost:7852/user/logout"
+export const sing="https://pay-1esl.onrender.com/user/sign"
 
 
-
-
-
-
-export const userdel="http://localhost:7852/user/del"
+export const out="https://pay-1esl.onrender.com/user/logout"
 
 
 
 
 
-export const userpay="http://localhost:7852/bal/pay"
+
+export const userdel="https://pay-1esl.onrender.com/user/del"
 
 
 
-export const usersave="http://localhost:7852/bal/save"
-
-export const transHistory="http://localhost:7852/bal/history"
 
 
-export const deltrans="http://localhost:7852/bal/del"
+export const userpay="https://pay-1esl.onrender.com/bal/pay"
 
 
-export const showbal="http://localhost:7852/bal/balance"
-export const getbal="http://localhost:7852/bal/get/balance"
+
+export const usersave="https://pay-1esl.onrender.com/bal/save"
+
+export const transHistory="https://pay-1esl.onrender.com/bal/history"
+
+
+export const deltrans="https://pay-1esl.onrender.com/bal/del"
+
+
+export const showbal="https://pay-1esl.onrender.com/bal/balance"
+export const getbal="https://pay-1esl.onrender.com/bal/get/balance"
 
 
 
