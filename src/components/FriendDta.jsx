@@ -13,7 +13,7 @@ const FriendDta = () => {
           Skip
         </button>
         <div className="grid grid-cols-1 relative gap-3 px-4">
-          {user?.length > 0 &&
+          {user?.length > 0 ?
             user?.map((p, i) => (
               <div className="border-2 my-3 p-3" key={p._id}>
                 <div className="flex justify-between px-2">
@@ -23,7 +23,7 @@ const FriendDta = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            )):<div>Add friend</div>}
         </div>
       </>
     );
