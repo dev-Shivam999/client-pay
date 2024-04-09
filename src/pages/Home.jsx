@@ -20,19 +20,26 @@ const Home = memo(() => {
 
   const api = async () => {
     dispatch(active(true));
-    const { data } = await axios.get(first, {
-      withCredentials: true,
-    });
+   try {
+     const { data } = await axios.get(first, {
+       withCredentials: true,
+     });
 
-    if (data.error) {
-      dispatch(active(false));
-      dispatch(anactive(false));
-      alert(data.messages);
-      navigate("/Login");
-    }
-
+     if (data.error) {
+       dispatch(active(false));
+       dispatch(anactive(false));
+       alert(data.messages);
+       navigate("/Login");
+     } else {
+       dispatch(active(false));
+       dispatch(anactive(true));
+     }
+   } catch (error) {
     dispatch(active(false));
-    dispatch(anactive(false));
+    dispatch(anactive(true));
+   }
+
+    
   };
   useEffect(() => {
     api();

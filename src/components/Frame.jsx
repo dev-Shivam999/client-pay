@@ -11,7 +11,7 @@ const Frame = ({cn}) => {
             <div className="text-center">loading...</div>
           </div>
         ) : er ? (
-          <div>check the error in connection</div>
+          <div className='h-screen text-center pt-[25vw] text-3xl text-white'>check the error in connection</div>
         ) :
       <div> {cn}</div>
       }

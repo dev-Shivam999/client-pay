@@ -46,7 +46,7 @@ const Friend = memo(() => {
           navigate("/Login");
         }
       } catch (error) {
-        setloading(true);
+        setloading(false);
         setEr(true);
 
         console.log(error, "ho gato");
