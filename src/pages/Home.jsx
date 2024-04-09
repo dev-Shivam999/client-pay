@@ -32,7 +32,7 @@ const Home = memo(() => {
        navigate("/Login");
      } else {
        dispatch(active(false));
-       dispatch(anactive(true));
+       dispatch(anactive(false));
      }
    } catch (error) {
     dispatch(active(false));
